@@ -1,0 +1,14 @@
+html, body {
+    height: 100%;
+    width: 100%;    
+}
+body {
+    margin:0;
+    background-color: #000;
+    background-image: url(images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1100vw;
+    height: 100vh;
+    
+}
