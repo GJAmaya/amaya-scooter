@@ -1,14 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+
 html, body {
     height: 100%;
     width: 100%;    
 }
 body {
+    color: #fff;
     margin:0;
     background-color: #000;
     background-image: url(images/background.png);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 1100vw;
+    width: 100vw;
     height: 100vh;
-    
+    background-position: bottom center;
+}
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+nav li {
+    flex: 33%;
+}
+h2 {
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia;
+}
+main{
+    text-align: center;
+}
+.sixty-image  {
+    width: 60vw;
+}
+span.ruck-text {
+    display: inline-block;
+    font-family: Impact;
+}
+footer {
+    display:flex;
+    justify-content: space-between;
 }
