@@ -20,6 +20,8 @@ body {
 nav ul {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
 }
 nav li {
     flex: 33%;
@@ -31,8 +33,14 @@ h2 {
 main{
     text-align: center;
 }
+.main-honda {
+    margin-top: -200px;
+}
 .sixty-image  {
     width: 60vw;
+}
+.twenty-image {
+    width: 20vw;
 }
 span.ruck-text {
     display: inline-block;
