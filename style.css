@@ -35,7 +35,7 @@ nav li {
   white-space: nowrap;
 }
 h2 {
-  margin: 10px;
+  margin: 0px;
   font-size: 200px;
   text-transform: uppercase;
   font-family: Cambria, Cochin, Georgia;
@@ -46,6 +46,10 @@ main {
 .main-honda {
   margin-top: -300px;
 }
+.fifty-image {
+    margin-top: -200px;
+    width:50vw;
+  }
 .sixty-image {
   width: 60vw;
 }
