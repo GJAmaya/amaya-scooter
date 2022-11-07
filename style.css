@@ -24,7 +24,7 @@ a {
   text-decoration: none;
 }
 nav ul {
-  font-size: 40px;
+  font-size: 50px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -40,6 +40,12 @@ h2 {
   text-transform: uppercase;
   font-family: Cambria, Cochin, Georgia;
 }
+h3 {
+    margin: 0px;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia;
+  }
 main {
   text-align: center;
 }
@@ -63,6 +69,10 @@ span.ruck-text {
 footer {
   display: flex;
   justify-content: space-between;
+}
+.thirty-image {
+    margin-top: -200px;
+    width:50vw;
 }
 .right-text {
   text-align: right;
