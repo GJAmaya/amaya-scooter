@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>The Honda MetRuck</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
@@ -15,15 +16,35 @@
     </nav>
     <main>
         <h1>
-            <img class="sixty-image" src="images/honda_logo.png">
+            <img class="sixty-image" data-aos="fade-up"
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+            data-aos-anchor-placement="top-center"src="images/honda_logo.png">
             <img class="fifty-image" src="images/metro-logo.png">
         </h1>
-        <h2><img class="sixty-image main-honda" src="images/metro-custom.png"></h2>
+        <h2><img class="sixty-image main-honda" class="div" 
+            data-aos="zoom-in-up"
+            data-aos-offset="50"
+            data-aos-delay="0"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+            data-aos-anchor-placement="top-center"src="images/metro-w-swingarm.png"></h2>
         <h3> Stock Honda Metropolian + Honda Ruckus motor swing-arm</h3>
     </main>
     <footer>
         <div class="left"><img class="twenty-image" src="images/honda_metro.png"></div>
         <div class="right"><img class="twenty-image" src="images/ruckus-swingarm.png"></div>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+     <script>
+       AOS.init();
+     </script>
     <script src="script.js"></script>
-     
+</body>
+</html>
